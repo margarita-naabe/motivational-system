@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <title>St.Paul</title>
+    <link rel="stylesheet" href="{{=URL('static','css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{=URL('static', 'css/MaterialDesign-Webfont-master/css/materialdesignicons.min.css')}}"/>
+    <link rel="stylesheet" href="{{=URL('static', 'css/MaterialDesign-Webfont-master/css/signup.css')}}"/>
+</head>
+<body>
+<div class="bg-img" style="background-image: url('{{=URL('static', 'images/spirit.jpg')}}')";>
+    <form action="{{=URL('store')}}"  method="post" class="form">
+        <div class="container">
+            <h1 style="text-align: center">Motivational Management System</h1>
+            <h2>Sign Up</h2>
+            <p><b>Please fill in this form.</b></p>
+            <hr>
+
+            <label for="fullname"><b>Full Name</b></label>
+            <input type="text" placeholder="Full Name" name="fullname" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Password" name="psw" required>
+
+            <label for="phone"><b>Mobile Number</label>
+            <input type="text" placeholder="Mobile Number" name="mobilenumber" required>
+
+           <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+           </button>
+            <a href="{{=URL('login')}}">Login</a> 	
+          </div>
+        </div>     
+    </form>
+   
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.js"></script>
+</div>        
+</body>
+</html>

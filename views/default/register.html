@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <title>St.Paul</title>
+    <link rel="stylesheet" href="{{=URL('static','css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{=URL('static', 'css/MaterialDesign-Webfont-master/css/materialdesignicons.min.css')}}"/>
+    <link rel="stylesheet" href="{{=URL('static', 'css/MaterialDesign-Webfont-master/css/register.css')}}"/>
+</head>
+<body style="background-image: url('{{=URL('static', 'images/ses.jpg')}}')";>
+	               <ul>
+           	     	 <li class="active"><a href="">Home</a></li>
+           	     	 <li><a href="{{=URL('aboutus')}}">About Us</a></li>
+           	     	 <li><a href="{{=URL('register')}}">Register</a></li>
+           	      </ul>
+	<div class="simple-form">
+		<h1>Registration Form</h1>
+		<form action action="{{=URL('authenticate')}}"  method="post" id="registration">
+			<input type="text" placeholder="Full Name" name="fullname" id="button"><br>
+			<br>
+			<input type="text"  placeholder="Email" name="email" id="button"><br>
+			<br>
+			<input type="password" placeholder="Password" name="password" id="button"><br><br>
+			<input type="number"  placeholder="Mobile No" name="phone" id="button"><br><br>
+			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;<span id="but">Male</span>
+			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;<span id='but'>Female</span><br></br>
+			<input type="submit"	value="Register" id="butt">
+		</form>	
+	</div>
+	<script src="js/jquery.min.js"></script> 
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>     	

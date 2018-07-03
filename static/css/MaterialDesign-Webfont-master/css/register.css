@@ -1,0 +1,68 @@
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	position: absolute;
+}
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display :inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border:1px solid transparent;
+  transition: 0:6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+.simple-form{
+	text-align: center;
+	margin: 100px 400px;
+}
+#registration{
+	width: 100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+#button{
+	width: 250px;
+	padding:10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#phone{
+	width:200px;
+	padding:10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#rd{
+   
+}
+#but{
+	  color:white;
+	  font-size: 18px;
+}
+#butt{
+	width:250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline:0px;
+	background-color: #0c6996;
+	border: 2px solid #01010c;
+	color: aliceblue;
+	font-size: 18px;
+
+}
